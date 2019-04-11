@@ -14,33 +14,34 @@ header{
     padding: 0px;
     margin-bottom:0px;  
 }
-.menu ul {
-    position: absolute;
-    padding:0%;
-    width: 100%;
+.menu {
+    display: flex;
     background-color: #113355;
-    list-style: none;
-    font-family: 'quicksand', sans-serif;
-    color: white;
     font-size: 20px;
-    text-align: center;
-    box-shadow: 5px 10px 7px  #999;
+    font-family: 'quicksand', sans-serif;
+    box-shadow: 5px 10px 7px #999;
 }
-.menu ul li {
-    display: inline;
-}
-.menu ul li  a{
-    display: inline-block;
-    text-decoration: none;
+.LinkMenu{
+    float: left;
+    height: 100%;
+    width: 100%;
     color: white;
-    margin-bottom:0px;
-    width:17.6%;
-    margin-left:-4px;
-    margin-right:-4px;
 }
-.menu ul li  a:hover{
+.flex-item{
+    flex: 1;
+    text-align: center;
+    flex-wrap: wrap;
+    color: #ccddee;
+    margin: 0px;
+}
+
+.flex-item a:hover{
+    color: #113355;
+}
+.LinkMenu:hover{
     background-color: #ccddee;
     color: #113355;
+    text-decoration: none;
 }
 .logo{
     width: 17%;
