@@ -4,7 +4,8 @@ body, html{
     width: 100%;
     height: 300%;
     padding: 0px;
-    margin: -1px
+    margin: -1px;
+    scroll-behavior: smooth;
 }
 header{
     width: 100%;
@@ -111,7 +112,6 @@ header{
 }
 
 .form-contato{
-    border: 3px solid;
     margin-right: 20%;
     margin-left: 20%;
     width: 60%;
@@ -123,8 +123,10 @@ header{
     font-size: 18px;
     color: gray;
 }
-
 .fixar-nav nav{
     position: fixed;
-
+}
+.form-contato button{
+    margin-top: 5px;
+    align-self: auto;
 }
